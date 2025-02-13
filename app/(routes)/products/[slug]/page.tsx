@@ -24,7 +24,7 @@ export default function ProductPage() {
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Product not found</h2>
-          <p className="mt-4 text-gray-500">The product you're looking for doesn't exist.</p>
+          <p className="mt-4 text-gray-500">The product you&apos;re looking for doesn&apos;t exist.</p>
         </div>
       </div>
     );

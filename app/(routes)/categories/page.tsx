@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { useFilters } from '@/hooks/useFilters';
 import { useProducts } from '@/hooks/useProducts';
 import ProductCard from '@/components/product/ProductCard';

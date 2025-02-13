@@ -90,7 +90,7 @@ export async function POST(request: Request) {
     products.push(newProduct);
     
     return NextResponse.json(newProduct, { status: 201 });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: 'Failed to create product' },
       { status: 400 }

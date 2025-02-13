@@ -99,9 +99,9 @@ export default function DealsPage() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Header with Timer */}
         <div className="text-center">
-          <h1 className="text-3xl font-bold tracking-tight">Today's Hot Deals</h1>
+          <h1 className="text-3xl font-bold tracking-tight">Today&apos;s Hot Deals</h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Grab these amazing deals before they're gone!
+            Grab these amazing deals before they&apos;re gone!
           </p>
           <div className="mt-6 flex items-center justify-center gap-4">
             <Timer className="h-6 w-6 text-primary" />
@@ -210,7 +210,7 @@ export default function DealsPage() {
         {(!sortedProducts || sortedProducts.length === 0) && (
           <div className="mt-12 text-center">
             <h2 className="text-lg font-semibold">No Deals Available</h2>
-            <p className="mt-2 text-muted-foreground">
+            <p className="mt-4 text-gray-500">
               Check back later for new deals and discounts!
             </p>
           </div>

@@ -105,7 +105,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight">What Our Customers Say</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Don't just take our word for it - hear from our satisfied customers
+              Don&apos;t just take our word for it - hear from our satisfied customers
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="mt-4 text-muted-foreground">
-                  "Amazing selection of tech products. The delivery was super fast and the customer service was excellent!"
+                  &quot;Amazing selection of tech products. The delivery was super fast and the customer service was excellent!&quot;
                 </p>
               </CardContent>
             </Card>
@@ -161,7 +161,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="mt-4 text-muted-foreground">
-                  "The quality of the products is outstanding. I'm a repeat customer and have never been disappointed!"
+                  &quot;The quality of the products is outstanding. I&apos;m a repeat customer and have never been disappointed!&quot;
                 </p>
               </CardContent>
             </Card>
@@ -189,7 +189,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="mt-4 text-muted-foreground">
-                  "Great prices and even better service. The team went above and beyond to help me find the perfect product!"
+                  &quot;Great prices and even better service. The team went above and beyond to help me find the perfect product!&quot;
                 </p>
               </CardContent>
             </Card>
